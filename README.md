@@ -1,4 +1,4 @@
-# 🧮 Ejercicios Prácticos 2
+# 🧮 Ejercicios Prácticos 
 ---
 Repositorio de actividades prácticas para reforzar conceptos de **Estructuras De Datos**, a través de ejercicios guiados.
 
