@@ -7,7 +7,10 @@ import java.util.Random;
 import java.util.Scanner;
 /**
  *
- * @author Owen_04
+ *El código implementa una lista enlazada simple de números enteros en Java.
+ *Una lista enlazada es una estructura donde cada elemento (nodo) contiene un dato y una referencia al siguiente nodo.
+ *
+ * @author Luis Owen Jaramillo Guerrero
  */
 public class Actividad1 {
 // Lista enlazada simple de enteros: insertar al final, recorrer, eliminar nodos mayores a un valor.
