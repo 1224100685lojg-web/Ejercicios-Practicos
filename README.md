@@ -1,6 +1,16 @@
-# 🧮 Ejercicios Prácticos de Listas Enlazadas en Java
+# 🧮 Ejercicios Prácticos 2
+---
+Repositorio de actividades prácticas para reforzar conceptos de **Estructuras de Datos**, a través de ejercicios guiados en **Java**.
+---
 
-> Proyecto académico visual desarrollado por **Luis Owen Jaramillo Guerrero**
+Implementaciones prácticas de diferentes tipos de listas enlazadas y sus operaciones más comunes.
+
+Cada actividad cuenta con:
+- Código completo (`Main` + clase lógica).
+- Imágenes de ejecución con entrada y salida.
+- Enlace directo para ver los archivos.
+
+---
 
 ---
 
@@ -16,7 +26,16 @@
 
 ---
 
-## 🖼️ Vista detallada
+## 🧠 Conceptos reforzados
+- Estructuras dinámicas de datos  
+- Nodos, punteros y referencias  
+- Inserción, eliminación y recorrido  
+- Listas simples, circulares y doblemente enlazadas  
+- Evaluación de expresiones y manipulación de archivos en Java  
 
-Cada carpeta incluye imágenes como:
+---
+
+📅 **Ejercicios desarrollados como parte del módulo de estructuras de datos en Java – Octubre 2025**  
+👨‍💻 **Autor:** *Luis Owen Jaramillo Guerrero*📅
+
 
