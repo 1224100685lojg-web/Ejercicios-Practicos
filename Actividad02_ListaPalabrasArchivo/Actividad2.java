@@ -8,12 +8,24 @@ import java.util.Scanner;
 
 /**
  *
- * @author Owen_04
+* Clase Actividad2 - Maneja una lista enlazada simple de palabras (String).
+ * 
+ * Permite:
+ * - Cargar palabras desde un archivo de texto.
+ * - Insertar nuevas palabras al final de la lista.
+ * - Mostrar el contenido de la lista.
+ * - Eliminar una palabra específica.
+ * - Guardar los cambios nuevamente en el archivo.
+ * 
+ * Este ejercicio refuerza el manejo de listas enlazadas simples y operaciones básicas
+ * de lectura/escritura de archivos en Java.
+ *
+ * @author Luis Owen Jaramillo Guerrero
  */
 public class Actividad2 {
         static class Node {
-        String word;
-        Node next;
+        String word; // palabra almacenada
+        Node next; // referencia al siguiente nodo
         Node(String w) { word = w; next = null; }
     }
 
@@ -32,6 +44,7 @@ public class Actividad2 {
 
     /**
      * Carga palabras desde archivo en la lista.
+     * Si el archivo no existe, muestra un aviso.
      */
     public void loadFromFile(String filename) {
         File f = new File(filename);
