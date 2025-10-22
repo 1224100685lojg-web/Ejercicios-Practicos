@@ -8,11 +8,20 @@ import java.util.Scanner;
 
 /**
  *
- * @author Owen_04
+* Clase principal para ejecutar la Actividad2.
+ * Permite al usuario:
+ * - Cargar palabras desde un archivo en una lista enlazada.
+ * - Mostrar la lista actual.
+ * - Agregar nuevas palabras.
+ * - Eliminar palabras existentes.
+ * - Guardar los cambios en el archivo.
+ *
+ * @author Luis Owen Jaramillo Guerrero
  */
 public class Actividad2Main {
 
     /**
+    * Método principal que controla la ejecución del programa.
      * @param args the command line arguments
      */
     public static void main(String[] args) {
@@ -22,15 +31,20 @@ public class Actividad2Main {
         String archivo = "palabras.txt";
 
         System.out.println("=== Actividad 2 - Lista enlazada de palabras ===");
-        lista.loadFromFile(archivo);
-        lista.printList();
 
+        // Cargar palabras desde archivo
+        lista.loadFromFile(archivo);
+        //Monstrar lista actual
+        lista.printList();
+        
+        // Preguntar al usuario si desea agregar una palabra
         System.out.print("¿Desea agregar una palabra? (s/n): ");
         if (sc.nextLine().trim().equalsIgnoreCase("s")) {
             System.out.print("Palabra: ");
             lista.insertLast(sc.nextLine());
         }
 
+        // Preguntar si desea eliminar alguna palabra
         System.out.print("¿Desea eliminar una palabra? (s/n): ");
         if (sc.nextLine().trim().equalsIgnoreCase("s")) {
             System.out.print("Palabra a eliminar: ");
@@ -40,9 +54,10 @@ public class Actividad2Main {
             else
                 System.out.println("No se encontró la palabra.");
         }
-
+        // Mostrar lista final después de agregar/eliminar palabras
         lista.printList();
 
+        // Preguntar si desea guardar los cambios en el archivo
         System.out.print("¿Guardar cambios? (s/n): ");
         if (sc.nextLine().trim().equalsIgnoreCase("s"))
             lista.writeToFile(archivo);
