@@ -1,17 +1,15 @@
 # 🧮 Ejercicios Prácticos 2
 ---
-Repositorio de actividades prácticas para reforzar conceptos de **Estructuras de Datos**, a través de ejercicios guiados en **Java**.
+Repositorio de actividades prácticas para reforzar conceptos de **Estructuras De Datos**, a través de ejercicios guiados.
+
 ---
 
-Implementaciones prácticas de diferentes tipos de listas enlazadas y sus operaciones más comunes.
+**Objetivo:** Implementaciones prácticas de diferentes tipos de listas enlazadas y sus operaciones más comunes.
 
 Cada actividad cuenta con:
 - Código completo (`Main` + clase lógica).
 - Imágenes de ejecución con entrada y salida.
 - Enlace directo para ver los archivos.
-
----
-
 ---
 
 ## 📋 Resumen visual de actividades
