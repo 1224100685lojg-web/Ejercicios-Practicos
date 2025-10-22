@@ -5,30 +5,39 @@
 package EjerciciosPracticos;
 
 /**
+ * Permite:
+ * - Insertar términos en un polinomio en una lista circular.
+ * - Recorrer e imprimir todos los términos en orden.
+ * - Evaluar el polinomio en un valor dado de x.
  *
- * @author Owen_04
+ * @author Luis Owen Jaramillo Guerrero
  */
 public class Actividad4 {
+   // Clase interna que representa un término del polinomio
    static class Term {
-        double coef;
-        int exp;
-        Term next;
+        double coef; // coeficiente del término
+        int exp; // exponente del término
+        Term next; // referencia al siguiente término
         Term(double c, int e) { coef = c; exp = e; next = null; }
     }
 
-    private Term last = null;
+    private Term last = null; // referencia al último término de la lista circular
 
+   
+   //Inserta un término (coeficiente y exponente) en la lista circular.
     public void insertTerm(double c, int e) {
         Term t = new Term(c, e);
         if (last == null) {
             last = t;
-            last.next = last;
+            last.next = last; // apunta a sí mismo, formando la lista circular
         } else {
-            t.next = last.next;
-            last.next = t;
-            last = t;
+            t.next = last.next; // nuevo nodo apunta al primero
+            last.next = t; // último nodo apunta al nuevo
+            last = t; // actualiza el último nodo
         }
     } /**********************/
+
+   //Recorre e imprime todos los términos de la lista circular.
 
     public void traverse() {
         if (last == null) { System.out.println("(vacía)"); return; }
@@ -42,6 +51,7 @@ public class Actividad4 {
         System.out.println();
     } /**********************/
 
+   //Evalúa el polinomio en un valor x dado.
     public double evaluateAt(double x) {
         if (last == null) return 0.0;
         double sum = 0.0;
