@@ -64,25 +64,8 @@ Cada carpeta contiene:
 ---
 
 ## 🎯 **Descripción**
-Este programa simula el flujo de atención de clientes en un supermercado durante **7 horas (420 minutos)**.  
-Se modela una **cola única** y varias **cajas de atención** que procesan clientes en función de la carga de trabajo.
 
----
-
-## ⚙️ **Características del sistema**
-- 🧍‍♂️ **Una sola fila de clientes.**  
-- 💳 **3 cajas activas** por defecto.  
-- 🛠️ **Apertura de una cuarta caja** si hay más de **20 clientes** en la fila.  
-- ⏱️ **Tiempos de atención** distribuidos aleatoriamente por caja.  
-- 👥 **Llegada de clientes:** aproximadamente **1 por minuto**.  
-
----
-
-## 📊 **Estadísticas calculadas**
-- ✅ Total de clientes atendidos  
-- 📏 Tamaño medio y máximo de la fila  
-- ⌛ Tiempo máximo de espera  
-- 🕓 Minuto de apertura de la cuarta caja  
+Ejercicios prácticos que apliquen el uso de **colas (`Queue`)** en diferentes contextos, analizando su comportamiento en procesos de **simulación** y **comparación de estructuras**.
 
 ---
 
