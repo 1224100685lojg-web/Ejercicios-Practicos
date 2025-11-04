@@ -60,7 +60,7 @@ Cada carpeta contiene:
 
 ---
 
-# 🛒 Simulación de Atención al Cliente en Supermercado  
+# 🛒 Ejercicios Colas
 ---
 
 ## 🎯 **Descripción**
