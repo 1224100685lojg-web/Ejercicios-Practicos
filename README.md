@@ -33,6 +33,73 @@ Cada actividad cuenta con:
 
 ---
 
+# 🧠 Implementaciones Prácticas de Colas en Java
+
+## 🎯 **Objetivo**
+Implementaciones prácticas de diferentes operaciones con **colas (`Queue`)** en Java.  
+Cada actividad demuestra un uso distinto de esta estructura, aplicando conceptos de **FIFO (First In, First Out)**, simulaciones, tiempos de espera y atención de procesos.
+
+---
+
+## 🧩 **Estructura del proyecto**
+Cada carpeta contiene:
+- Código fuente (`Main` + clase lógica).
+- Archivo ejecutable o `.class` generado.
+
+---
+
+## 📋 **Resumen visual de actividades**
+
+| 🧩 Actividad | 🎯 Descripción | 💻 Vista previa | 🔍 Código |
+|--------------|----------------|----------------|-----------|
+| **1️⃣ Simulación simple de pila** | Simula una cola básica de atención con operaciones de entrada y salida. | <img src="Actividad 01 Simulación simple de pila/Captura01.png" width="540"/> | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2001%20Simulación%20simple%20de%20pila) |
+| **2️⃣ Pila de nombres** | Gestiona una cola de nombres y los procesa en orden de llegada. | <img src="Actividad 02 Pila de nombres/Captura02.png" width="540"/> | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2002%20Pila%20de%20nombres) |
+| **3️⃣ Verificar si una pila está vacía** | Verifica si una cola tiene o no elementos antes de procesarlos. | <img src="Actividad 03 Verificar si una pila está vacía/Captura03.png" width="540"/> | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2003%20Verificar%20si%20una%20pila%20está%20vacía) |
+| **4️⃣ Invertir una palabra** | Usa una cola para invertir o reordenar caracteres. | <img src="Actividad 04 Invertir una palabra/Captura04.png" width="540"/> | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2004%20Invertir%20una%20palabra) |
+| **5️⃣ Balanceo de paréntesis** | Evalúa la secuencia de paréntesis usando colas para simular el flujo. | <img src="Actividad 05 Balanceo de paréntesis/Captura05.png" width="540"/> | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2005%20Balanceo%20de%20paréntesis) |
+
+---
+
+# 🛒 Simulación de Atención al Cliente en Supermercado  
+---
+
+## 🎯 **Descripción**
+Este programa simula el flujo de atención de clientes en un supermercado durante **7 horas (420 minutos)**.  
+Se modela una **cola única** y varias **cajas de atención** que procesan clientes en función de la carga de trabajo.
+
+---
+
+## ⚙️ **Características del sistema**
+- 🧍‍♂️ **Una sola fila de clientes.**  
+- 💳 **3 cajas activas** por defecto.  
+- 🛠️ **Apertura de una cuarta caja** si hay más de **20 clientes** en la fila.  
+- ⏱️ **Tiempos de atención** distribuidos aleatoriamente por caja.  
+- 👥 **Llegada de clientes:** aproximadamente **1 por minuto**.  
+
+---
+
+## 📊 **Estadísticas calculadas**
+- ✅ Total de clientes atendidos  
+- 📏 Tamaño medio y máximo de la fila  
+- ⌛ Tiempo máximo de espera  
+- 🕓 Minuto de apertura de la cuarta caja  
+
+---
+
+## 🧩 **Estructura del proyecto**
+| Archivo | Descripción |
+|----------|-------------|
+| [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Ejercicio1_Comparacion_de_colas) | Contiene la lógica principal de la simulación (colas, cajas, tiempos, estadísticas). |
+| `MainSupermercado.java` | Clase principal con el método `main()` que ejecuta la simulación y muestra los resultados. |
+
+---
+
+## 💡 **Conceptos aplicados**
+- Estructuras de datos: `Queue` (cola).  
+- Simulación basada en eventos y tiempo.  
+- Uso de números aleatorios (`Math.random()`).  
+- Condicionales dinámicos y control de flujo.  
+- Acumulación de estadísticas mediante variables auxiliares.  
 📅 **Ejercicios desarrollados como parte del módulo de estructuras de datos en Java – Octubre 2025**  
 👨‍💻 **Autor:** *Luis Owen Jaramillo Guerrero*📅
 
