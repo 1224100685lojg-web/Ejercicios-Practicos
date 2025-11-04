@@ -99,7 +99,10 @@ Se modela una **cola única** y varias **cajas de atención** que procesan clien
 - Simulación basada en eventos y tiempo.  
 - Uso de números aleatorios (`Math.random()`).  
 - Condicionales dinámicos y control de flujo.  
-- Acumulación de estadísticas mediante variables auxiliares.  
+- Acumulación de estadísticas mediante variables auxiliares.
+
+---
+
 📅 **Ejercicios desarrollados como parte del módulo de estructuras de datos en Java – Octubre 2025**  
 👨‍💻 **Autor:** *Luis Owen Jaramillo Guerrero*📅
 
