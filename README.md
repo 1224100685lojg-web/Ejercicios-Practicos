@@ -89,7 +89,7 @@ Se modela una **cola única** y varias **cajas de atención** que procesan clien
 ## 🧩 **Estructura del proyecto**
 | Archivo | Descripción |
 |----------|-------------|
-| [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Ejercicio1_Comparacion_de_colas) | Contiene la lógica principal de la simulación (colas, cajas, tiempos, estadísticas). |
+| [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Supermercado.java) | Contiene la lógica principal de la simulación (colas, cajas, tiempos, estadísticas). |
 | `MainSupermercado.java` | Clase principal con el método `main()` que ejecuta la simulación y muestra los resultados. |
 
 ---
