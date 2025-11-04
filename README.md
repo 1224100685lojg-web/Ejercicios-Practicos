@@ -90,7 +90,7 @@ Se modela una **cola única** y varias **cajas de atención** que procesan clien
 | Archivo | Descripción |
 |----------|-------------|
 | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Supermercado.java) | Contiene la lógica principal de la simulación (colas, cajas, tiempos, estadísticas). |
-| `MainSupermercado.java` | Clase principal con el método `main()` que ejecuta la simulación y muestra los resultados. |
+| [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./MainSupermercado.java) | Clase principal con el método `main()` que ejecuta la simulación y muestra los resultados. |
 
 ---
 
