@@ -90,7 +90,7 @@ Se modela una **cola única** y varias **cajas de atención** que procesan clien
 | Archivo | Descripción |
 |----------|-------------|
 | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Ejercicio1_Comparación_de_colas) | Contiene el método que recibe como argumentos dos colas del mismo tipo y devuelva true si ambas colas son idénticas . |
-| [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Ejercicio2_Simulacion_de_supermecado) | Contiene la lógica principal de la simulación (colas, cajas, tiempos, estadísticas). Ademas la clase principal con el método `main()` que ejecuta la simulación y muestra los resultados. |
+| [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Ejercicio2_Simulación_de_supermercado) | Contiene la lógica principal de la simulación (colas, cajas, tiempos, estadísticas). Ademas la clase principal con el método `main()` que ejecuta la simulación y muestra los resultados. |
 
 ---
 
