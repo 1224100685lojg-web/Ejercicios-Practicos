@@ -33,10 +33,9 @@ Cada actividad cuenta con:
 
 ---
 
-# 🧠 Implementaciones Prácticas de Colas en Java
+# 🧠 Implementaciones Prácticas de Pilas en Java
 
 ## 🎯 **Objetivo**
-Implementaciones prácticas de diferentes operaciones con **colas (`Queue`)** en Java.  
 Cada actividad demuestra un uso distinto de esta estructura, aplicando conceptos de **FIFO (First In, First Out)**, simulaciones, tiempos de espera y atención de procesos.
 
 ---
