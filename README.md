@@ -51,11 +51,11 @@ Cada carpeta contiene:
 
 | 🧩 Actividad | 🎯 Descripción | 💻 Vista previa | 🔍 Código |
 |--------------|----------------|----------------|-----------|
-| **1️⃣ Simulación simple de pila** | Simula una cola básica de atención con operaciones de entrada y salida. | <img src="Actividad 01 Simulación simple de pila/Captura01.png" width="540"/> | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2001%20Simulación%20simple%20de%20pila) |
-| **2️⃣ Pila de nombres** | Gestiona una cola de nombres y los procesa en orden de llegada. | <img src="Actividad 02 Pila de nombres/Captura02.png" width="540"/> | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2002%20Pila%20de%20nombres) |
-| **3️⃣ Verificar si una pila está vacía** | Verifica si una cola tiene o no elementos antes de procesarlos. | <img src="Actividad 03 Verificar si una pila está vacía/Captura03.png" width="540"/> | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2003%20Verificar%20si%20una%20pila%20está%20vacía) |
-| **4️⃣ Invertir una palabra** | Usa una cola para invertir o reordenar caracteres. | <img src="Actividad 04 Invertir una palabra/Captura04.png" width="540"/> | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2004%20Invertir%20una%20palabra) |
-| **5️⃣ Balanceo de paréntesis** | Evalúa la secuencia de paréntesis usando colas para simular el flujo. | <img src="Actividad 05 Balanceo de paréntesis/Captura05.png" width="540"/> | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2005%20Balanceo%20de%20paréntesis) |
+| **1️⃣ Simulación simple de pila** | Simula una cola básica de atención con operaciones de entrada y salida. | [Ver video](https://drive.google.com/file/d/1tXRukFm_Nhs5Qnl5RXvFtCvYlRR_dOrm/view?usp=drive_link) | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)] | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2001%20Simulación%20simple%20de%20pila) |
+| **2️⃣ Pila de nombres** | Gestiona una cola de nombres y los procesa en orden de llegada. | [Ver video](https://drive.google.com/file/d/1Fk17Iz0yHioXBpXI2FIRvYxAtt4vkNsR/view?usp=drive_link) | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2002%20Pila%20de%20nombres) |
+| **3️⃣ Verificar si una pila está vacía** | Verifica si una cola tiene o no elementos antes de procesarlos. | [Ver video](https://drive.google.com/file/d/1uiAD2qZvXQLf2wyfL4QCZLCH7-l0IId1/view?usp=drive_link) | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2003%20Verificar%20si%20una%20pila%20está%20vacía) |
+| **4️⃣ Invertir una palabra** | Usa una cola para invertir o reordenar caracteres. | [Ver video](https://drive.google.com/file/d/153G4N6hxXr6s_mS3DNFcQPeGRK5ivN0J/view?usp=drive_link) | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2004%20Invertir%20una%20palabra) |
+| **5️⃣ Balanceo de paréntesis** | Evalúa la secuencia de paréntesis usando colas para simular el flujo. | [Ver video](https://drive.google.com/file/d/1NvuToD_nHB6HQWqHPtGWmW8vhGJiLsU5/view?usp=drive_link) | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Actividad%2005%20Balanceo%20de%20paréntesis) |
 
 ---
 
@@ -69,10 +69,10 @@ Ejercicios prácticos que apliquen el uso de **colas (`Queue`)** en diferentes c
 ---
 
 ## 🧩 **Estructura del proyecto**
-| Archivo | Descripción |
-|----------|-------------|
-| [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Ejercicio1%20_Comparaci%C3%B3n_de_colas) | Contiene el método que recibe como argumentos dos colas del mismo tipo y devuelva true si ambas colas son idénticas. Ademas la clase principal con el método main() que ejecuta la simulación y muestra los resultados. |
-| [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Ejercicio2_Simulación_de_supermercado) | Contiene la lógica principal de la simulación (colas, cajas, tiempos, estadísticas). Ademas la clase principal con el método `main()` que ejecuta la simulación y muestra los resultados. |
+| Archivo | Descripcion | 💻 Vista previa |
+|----------|-------------|--------------|
+| [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Ejercicio1%20_Comparaci%C3%B3n_de_colas) | Contiene el método que recibe como argumentos dos colas del mismo tipo y devuelva true si ambas colas son idénticas. Ademas la clase principal con el método main() que ejecuta la simulación y muestra los resultados. | [Ver video]() |
+| [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Ejercicio2_Simulación_de_supermercado) | Contiene la lógica principal de la simulación (colas, cajas, tiempos, estadísticas). Ademas la clase principal con el método `main()` que ejecuta la simulación y muestra los resultados. | [Ver video]() |
 
 ---
 
