@@ -69,10 +69,10 @@ Ejercicios prácticos que apliquen el uso de **colas (`Queue`)** en diferentes c
 ---
 
 ## 🧩 **Estructura del proyecto**
-| Archivo | Descripcion | 💻 Vista previa |
-|----------|-------------|--------------|
-| [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Ejercicio1%20_Comparaci%C3%B3n_de_colas) | Contiene el método que recibe como argumentos dos colas del mismo tipo y devuelva true si ambas colas son idénticas. Ademas la clase principal con el método main() que ejecuta la simulación y muestra los resultados. | [Ver video](https://drive.google.com/file/d/1psTLu3wPB2lwYExOLBGW1QRK6cineRXq/view?usp=drive_link) |
-| [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Ejercicio2_Simulación_de_supermercado) | Contiene la lógica principal de la simulación (colas, cajas, tiempos, estadísticas). Ademas la clase principal con el método `main()` que ejecuta la simulación y muestra los resultados. | [Ver video](https://drive.google.com/file/d/1_mxIIRuGGQ6rOMbbkvrq9K0iceZbtJ-K/view?usp=drive_link) |
+|Actividad | Archivo | Descripcion | 💻 Vista previa |
+|-----------|----------|-------------|--------------|
+| **1️⃣ Ejercicio 1: Comparación de colas** | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Ejercicio1%20_Comparaci%C3%B3n_de_colas) | Contiene el método que recibe como argumentos dos colas del mismo tipo y devuelva true si ambas colas son idénticas. Ademas la clase principal con el método main() que ejecuta la simulación y muestra los resultados. | [Ver video](https://drive.google.com/file/d/1psTLu3wPB2lwYExOLBGW1QRK6cineRXq/view?usp=drive_link) |
+| **2️⃣ Ejercicio 2 y Ejercicio 3: Simulación de supermercado**  | [![Ver código](https://img.shields.io/badge/Ver_Código-007ACC?style=for-the-badge&logo=java&logoColor=white)](./Ejercicio2_Simulación_de_supermercado) | Contiene la lógica principal de la simulación (colas, cajas, tiempos, estadísticas). Ademas la clase principal con el método `main()` que ejecuta la simulación y muestra los resultados.Încluye los dos ejercicios | [Ver video](https://drive.google.com/file/d/1_mxIIRuGGQ6rOMbbkvrq9K0iceZbtJ-K/view?usp=drive_link) |
 
 ---
 
